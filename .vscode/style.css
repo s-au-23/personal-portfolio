@@ -53,6 +53,23 @@ header {
   transform: scale(1.15);
 }
 
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5;
+  /* LinkedIn blue */
+  transform: scale(1.2);
+}
+
 /* NAV */
 nav a {
   color: white;
